@@ -22,7 +22,7 @@ public class ShortnerController {
         String shortCode = randomCode(6);
         url.setShortURL(shortCode);
         service.addUrlObject(url);
-        return "https://tinycut-s9nb.onrender.com/" + shortCode;
+        return "https://tinycut-pbtb.onrender.com" + shortCode;
     }
 
     private String randomCode(int length) {
@@ -41,7 +41,7 @@ public class ShortnerController {
         if(!Objects.equals(longURL, "Not Found!"))
             return ResponseEntity.status(HttpStatus.FOUND).location(URI.create(longURL)).build();
         else
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).location(URI.create("http://localhost:8080/shortURL")).build();
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).location(URI.create("https://tinycut-pbtb.onrender.com/shortURL")).build();
     }
 
     @GetMapping("/health")
