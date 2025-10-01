@@ -1,0 +1,21 @@
+2025-10-01 12:14:15.920912+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "URLS" not found (this database is empty); SQL statement:
+SELECT *FROM urls [42104-232]
+2025-10-01 12:14:53.981908+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "URLS" not found (this database is empty); SQL statement:
+SELECT *FROM urls [42104-232]
+2025-10-01 12:15:01.961619+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "URLS" not found (this database is empty); SQL statement:
+SELECT *FROM urls [42104-232]
+2025-10-01 12:15:29.483010+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "URLS" not found (this database is empty); SQL statement:
+SELECT *FROM urls [42104-232]
+2025-10-01 12:15:33.467462+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "URLS" not found (this database is empty); SQL statement:
+SELECT *FROM urls [42104-232]
+2025-10-01 12:15:47.954657+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "URLS" not found (this database is empty); SQL statement:
+SELECT *FROM urls [42104-232]
+2025-10-01 12:15:50.237605+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "URLS" not found (this database is empty); SQL statement:
+SELECT *FROM urls [42104-232]
