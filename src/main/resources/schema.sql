@@ -1,0 +1,4 @@
+CREATE TABLE urls (
+    shortURL VARCHAR(10) NOT NULL,
+    longURL VARCHAR(251) NOT NULL
+);

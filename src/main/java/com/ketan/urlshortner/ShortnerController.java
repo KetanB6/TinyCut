@@ -22,7 +22,7 @@ public class ShortnerController {
         String shortCode = randomCode(6);
         url.setShortURL(shortCode);
         service.addUrlObject(url);
-        return "https://tinycut-pbtb.onrender.com" + shortCode;
+        return "https://tinycut-pbtb.onrender.com/" + shortCode;
     }
 
     private String randomCode(int length) {
